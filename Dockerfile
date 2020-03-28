@@ -6,6 +6,6 @@ WORKDIR /usr/local/bin
 
 COPY ./target/devportal-1.0.0-SNAPSHOT.jar devportal.jar
 
-EXPOSE 8081
+EXPOSE 8080
 
 CMD ["java", "-jar", "devportal.jar"] 
