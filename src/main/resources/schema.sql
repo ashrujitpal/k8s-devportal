@@ -1,7 +1,7 @@
--- DROP TABLE SUB_API_TBL;
+ DROP TABLE IF EXISTS sub_api_tbl;
 
-CREATE TABLE IF NOT EXISTS sub-api_tbl (
-   id INT NOT NULL AUTO_INCREMENT primary key,
+CREATE TABLE IF NOT EXISTS sub_api_tbl (
+   id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
    parent_api_name VARCHAR(200) NOT NULL,
    api_name VARCHAR(200) NOT NULL, 
    api_descripton VARCHAR(2000) NOT NULL, 
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS sub-api_tbl (
    api_devportal_link VARCHAR(1000) NOT NULL
 );
 
---DROP TABLE API_DESC_TBL;
+ DROP TABLE IF EXISTS api_desc_tbl;
 
 CREATE TABLE IF NOT EXISTS api_desc_tbl (
    id INT NOT NULL AUTO_INCREMENT primary key,
