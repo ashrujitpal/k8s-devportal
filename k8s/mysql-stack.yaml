@@ -15,6 +15,9 @@ spec:
       containers:
       - name: mysqldb
         image: mysql:8.0.19
+        env:
+          - name: MYSQL_ROOT_PASSWORD
+            value: password
         volumeMounts:
           - name: mysql-persistent-storage
             mountPath: /var/lib/mysql

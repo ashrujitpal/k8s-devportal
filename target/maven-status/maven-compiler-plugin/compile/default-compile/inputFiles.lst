@@ -1,18 +1,18 @@
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\utility\UseParserExample.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\QueryParam.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\service\SubApiServiceImpl.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\controller\WelcomeController.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\Pager.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\service\SubApiService.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\repo\SubAPIRepository.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\service\APIDetailsService.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\repo\APIDetailsRepository.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\SwaggerPath.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\StartWebApplication.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\QuickstartSample.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\SubApiTbl.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\ApiDescTbl.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\PathParam.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\dao\SwaggerPaths.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\utility\SwaggerUtility.java
-C:\Learning\AWS\Docker - ECS\cogportal1-master\src\main\java\com\fab\devportal\service\APIDetailsServiceImpl.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\SwaggerPath.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\utility\UseParserExample.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\QueryParam.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\SubApiTbl.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\PathParam.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\controller\WelcomeController.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\service\SubApiService.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\service\SubApiServiceImpl.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\repo\SubAPIRepository.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\service\APIDetailsServiceImpl.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\Pager.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\utility\SwaggerUtility.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\QuickstartSample.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\SwaggerPaths.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\service\APIDetailsService.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\dao\ApiDescTbl.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\StartWebApplication.java
+C:\Learning\AWS\Kubernetes\k8s-devportal\src\main\java\com\fab\devportal\repo\APIDetailsRepository.java
