@@ -1,21 +1,20 @@
-version: '3'
+version: "3"
 services:
   devportal:
-    build:
-      iamge: ashrujitpal/devportal:1.0.0
-      ports: 
-        - "8080:8080"
-      networks:
-        - devportal-network      
-      
+    image: ashrujitpal/devportal:1.0.0
+    ports:
+      - "8080:8080"
+    networks:
+      - devportal-network
+
   database:
-    build:
-      iamge: mysql:5.1.17
-      networks:
-        - devportal-network
-      environment:
-        - MYSQL_DATABASE=devportal
-        - MYSQL_ROOT_PASSWORD=password
+    image: mysql:8.0.19
+    networks:
+      - devportal-network
+    environment:
+      - MYSQL_DATABASE=devportal
+      - MYSQL_ROOT_PASSWORD=password
 
 networks:
-  - devportal-network 
+  devportal-network:
+    driver: bridge
