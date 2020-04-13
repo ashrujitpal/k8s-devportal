@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysqldb
+  name: mysql
 spec:
   selector:
     matchLabels:
-      app: mysqldb
+      app: mysql
   replicas: 1
   template:
     metadata:
       labels: 
-        app: mysqldb
+        app: mysql
     spec:
       containers:
-      - name: mysqldb
+      - name: mysql
         image: mysql:8.0.19
         env:
           - name: MYSQL_ROOT_PASSWORD
             value: password          
         ports:
         - containerPort: 3306
-          name: mysqldb
+          name: mysql
         volumeMounts:
           - name: mysql-persistent-storage
             mountPath: /var/lib/mysql
@@ -34,12 +34,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysqldb
+  name: mysql
 spec:
   selector:
-    app: mysqldb
+    app: mysql
   ports:
-    - name: mysqldb
+    - name: mysql
       port: 3306
   type: ClusterIP 
   
